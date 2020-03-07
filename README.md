@@ -24,3 +24,5 @@ Implement the steady state evolutionary strategy (Pagliuca, Milano and Nolfi, 20
 - Lopp again and as a result we have only best values of W and b for the task
 
 [Code](https://github.com/AleksandrSidorin/Behavioural_Robotics/blob/master/NN%20controller%20for%20a%20Gym%20problem%20(CartPole-v0).py)
+
+<img width="565" alt="Снимок экрана 2020-03-07 в 7 05 26 AM" src="https://user-images.githubusercontent.com/55827366/76136484-1b944a80-6043-11ea-9c41-a49755cd9898.png">
