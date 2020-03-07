@@ -17,5 +17,9 @@ Implement the steady state evolutionary strategy (Pagliuca, Milano and Nolfi, 20
 
 - Initiolize parameters
 - Make list of W1, W2, b1 and b2 - first layer, second layer, bias first layer and bias second layer, respectively
-- Loop 10 times. Each time colculate layers of neurons and activation, colculate reward_summ each time reset observation
-- 
+- Loop 10 times. Each time reset observation
+- Loop 10 times. Each time colculate layers of neurons and activation, colculate reward_summ
+- Take 5 W and b where reward_sum was max
+- Add Gausian noise to the rest of W and b
+- Lopp again and as a result we have only best values of W and b for the task
+
