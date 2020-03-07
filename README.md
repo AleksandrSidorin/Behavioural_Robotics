@@ -21,7 +21,7 @@ Implement the steady state evolutionary strategy (Pagliuca, Milano and Nolfi, 20
 - Loop 10 times. Each time colculate layers of neurons and activation, colculate reward_summ
 - Take 5 W and b where reward_sum was max
 - Add Gausian noise to the rest of W and b
-- Lopp again and as a result we have only best values of W and b for the task
+- Loop again and as a result we have only best values of W and b for the task
 
 [Code](https://github.com/AleksandrSidorin/Behavioural_Robotics/blob/master/NN%20controller%20for%20a%20Gym%20problem%20(CartPole-v0).py)
 
