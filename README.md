@@ -23,3 +23,4 @@ Implement the steady state evolutionary strategy (Pagliuca, Milano and Nolfi, 20
 - Add Gausian noise to the rest of W and b
 - Lopp again and as a result we have only best values of W and b for the task
 
+[Code](https://github.com/AleksandrSidorin/Behavioural_Robotics/blob/master/NN%20controller%20for%20a%20Gym%20problem%20(CartPole-v0).py)
