@@ -72,8 +72,8 @@ for _ in range (10):
                 B[n], B[n+1] = B[n+1], B[n]
     
     for t in range(0, 5):
-        W[t][0] = W[t][0] + np.random.normal(0, 1, (nhiddens, ninputs))
-        W[t][1] = W[t][1] + np.random.normal(0, 1, (noutputs, nhiddens))
-        B[t][0] = B[t][0] + np.random.normal(0, 1, (nhiddens, 1))
-        B[t][1] = B[t][1] + np.random.normal(0, 1, (noutputs, 1))
+        W[t][0] = W[t+5][0] + np.random.normal(0, 1, (nhiddens, ninputs))
+        W[t][1] = W[t+5][1] + np.random.normal(0, 1, (noutputs, nhiddens))
+        B[t][0] = B[t+5][0] + np.random.normal(0, 1, (nhiddens, 1))
+        B[t][1] = B[t+5][1] + np.random.normal(0, 1, (noutputs, 1))
 
