@@ -33,4 +33,7 @@ Implement the steady state evolutionary strategy (Pagliuca, Milano and Nolfi, 20
 
 Run few replications of the experiment by using different seeds. Use the pre-prepared acrobot.ini file included in the ./xacrobot directory. Plot performance across generations and then observe the behavior of evolved robots.
 
-By running the programm with differient seed i got this result:
+By running the programm with differient seed I got this result:
+
+This Graf shows how Best Fit depends on Seed value:
+
