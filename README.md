@@ -37,3 +37,4 @@ By running the programm with differient seed I got this result:
 
 This Graf shows how Best Fit depends on Seed value:
 
+<img width="401" alt="Снимок экрана 2020-03-13 в 11 14 24 AM" src="https://user-images.githubusercontent.com/55827366/76602654-74b91e00-651c-11ea-964c-dd3709007cd7.png">
