@@ -57,11 +57,11 @@ The original one is summary of:
 
 The modified one (for example, for humanoid) is summary of:
 
-progress - the same
-1.0 - bonus - robot receives to avoid falling.
-feet_cost - shows if both of the feet on the ground or not.
-joints_at_limit_cost - the same 
-angle_offset_cost - penalty that shows how much is angle offset between the robot and the target.
+1. _progress_ - the same
+2. _1.0_ - bonus - robot receives to avoid falling.
+3. _feet_cost_ - shows if both of the feet on the ground or not.
+4. _joints_at_limit_cost_ - the same 
+5. _angle_offset_cost_ - penalty that shows how much is angle offset between the robot and the target.
 
 I ran two environments - halfcheetah and humanoid with both of reward functions at the same time. Humanoid had better results, agents were could move to the the target. Halfcheetah function robots could not do it. They have fallen down always. 
 
