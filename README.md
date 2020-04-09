@@ -38,3 +38,32 @@ By running the programm with differient seed I got this result:
 This Graf shows how Best Fit depends on Seed value:
 
 <img width="401" alt="Снимок экрана 2020-03-13 в 11 14 24 AM" src="https://user-images.githubusercontent.com/55827366/76602654-74b91e00-651c-11ea-964c-dd3709007cd7.png">
+
+## Exercise 4
+
+**Task:**
+
+Evolve the robots with the original reward functions and then compare the behavior of robots evolved with the original and revised reward functions, e.g. in the case of the hopper and halfcheetah. 
+
+1) Describe the difference between the two functions. Describe how the behaviour of the evolved robots differ.
+
+The original one is summary of:
+
+alive - shows if the robot height above ground 
+progress - movement of the robot to the target direction.
+electricity_cost - penalty due to cost of using robot's motors.
+joints_at_limit_cost - penalty due to stucking joints of the robot.
+feet_collision_cost - penalty given if another leg is touching other objects, that makes robot avoiding smashing feet into itself.
+The modified one (for example, for humanoid) is summary of:
+
+progress - the same
+1.0 - bonus - robot receives to avoid falling.
+feet_cost - shows if both of the feet on the ground or not.
+joints_at_limit_cost - the same 
+angle_offset_cost - penalty that shows how much is angle offset between the robot and the target.
+
+I ran two environments - halfcheetah and humanoid with both of reward functions at the same time. Humanoid had better results, agents were could move to the the target. Halfcheetah function robots could not do it. They have fallen down always. 
+
+2) Explain why the original rewards functions are not suitable for evolutionary strategies ?
+
+
