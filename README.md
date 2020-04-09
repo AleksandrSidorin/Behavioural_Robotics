@@ -49,11 +49,11 @@ Evolve the robots with the original reward functions and then compare the behavi
 
 The original one is summary of:
 
-***alive*** - shows if the robot height above ground 
-***progress*** - movement of the robot to the target direction.
-***electricity_cost*** - penalty due to cost of using robot's motors.
-***joints_at_limit_cost*** - penalty due to stucking joints of the robot.
-***feet_collision_cost*** - penalty given if another leg is touching other objects, that makes robot avoiding smashing feet into itself.
+1. _alive_ - shows if the robot height above ground 
+2. _progress_ - movement of the robot to the target direction.
+3. _electricity_cost_ - penalty due to cost of using robot's motors.
+4. _joints_at_limit_cost_ - penalty due to stucking joints of the robot.
+5. _feet_collision_cost_ - penalty given if another leg is touching other objects, that makes robot avoiding smashing feet into itself.
 
 The modified one (for example, for humanoid) is summary of:
 
