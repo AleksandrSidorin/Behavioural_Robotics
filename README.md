@@ -67,4 +67,4 @@ I ran two environments - halfcheetah and humanoid with both of reward functions 
 
 2) Explain why the original rewards functions are not suitable for evolutionary strategies ?
 
-
+The idea of evolutionary algorithm is that there are several agents. They are learned at the same time in one generation. Then, the algorithm choose the best ones and produces new for starting the next generation. When  break rule happens loop stops. 
