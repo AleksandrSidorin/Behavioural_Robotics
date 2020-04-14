@@ -93,4 +93,6 @@ After done this I saw 2 types of behaviour:
 
 Several agents were trying to reach circular obstacle fast and to keep pasition close to it in order to achieve highest reward The rest agents were trying to explore the map before moving to circular obstacle.
 
-The main difference between LSTM and feedforward architectures is that feedforward produces more oscillatory behaviour in compareson with LSTM. Here you can see some of the results
+Explain how the behavior of evolved robots differ from those evolved with the LSTM architecture?
+
+The main difference between LSTM and feedforward architectures is that feedforward produces more oscillatory behaviour in compareson with LSTM. Here you can see some of the results. Also, feedforward can increase the error, causing the robot to avoid the desired point and going through it.
