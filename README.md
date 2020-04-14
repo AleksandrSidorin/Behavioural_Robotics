@@ -79,3 +79,8 @@ I got good desirable results: two-wheeled robot balance itself very good.
 
 ![IMAGE 2020-04-14 4:01:01 PM](https://user-images.githubusercontent.com/55827366/79227802-24114980-7e69-11ea-933a-063dc15f2e5b.jpg)
 
+## Exercise 6
+
+**Task:**
+
+
