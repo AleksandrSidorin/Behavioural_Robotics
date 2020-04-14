@@ -83,4 +83,14 @@ I got good desirable results: two-wheeled robot balance itself very good.
 
 **Task:**
 
+Run 10 replications of the experiment from the evorobotpy/xdiscrim folder by using different seeds.
 
+After done this I saw 2 types of behaviour:
+
+1 - exploration oriented
+
+2 - exploitation oriented. 
+
+Several agents were trying to reach circular obstacle fast and to keep pasition close to it in order to achieve highest reward The rest agents were trying to explore the map before moving to circular obstacle.
+
+The main difference between LSTM and feedforward architectures is that feedforward produces more oscillatory behaviour in compareson with LSTM. Here you can see some of the results
