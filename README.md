@@ -96,3 +96,6 @@ Several agents were trying to reach circular obstacle fast and to keep pasition 
 Explain how the behavior of evolved robots differ from those evolved with the LSTM architecture?
 
 The main difference between LSTM and feedforward architectures is that feedforward produces more oscillatory behaviour in compareson with LSTM. Here you can see some of the results. Also, feedforward can increase the error, causing the robot to avoid the desired point and going through it.
+
+![IMAGE 2020-04-14 5:23:34 PM](https://user-images.githubusercontent.com/55827366/79235734-abb08580-7e74-11ea-945f-35c1b5af2372.jpg)
+![IMAGE 2020-04-14 5:23:36 PM](https://user-images.githubusercontent.com/55827366/79235737-ace1b280-7e74-11ea-9265-118bcbbace6a.jpg)
